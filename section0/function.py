@@ -6,8 +6,3 @@ def add(a, b):
 
 
 print((add(5,2)))
-
-
-def isPrime(x):
-    for i in range(2, x):
-        
