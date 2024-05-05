@@ -1,7 +1,7 @@
 n = int(input())
 scores = list(map(int, input().split()))
 
-average = round(sum(scores) / n)
+average = int((sum(scores) / n) + 0.5)
 
 diff = []
 for score in scores:
