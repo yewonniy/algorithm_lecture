@@ -1,3 +1,4 @@
+# 이건 망한 코드
 n, horse = map(int, input().split())
 arr = [int(input()) for _ in range(n)]
 arr.sort()
